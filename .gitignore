@@ -22,6 +22,14 @@ backend/env/
 backend/.env
 backend/.env.*
 
+# Python runtime caches
+app/__pycache__/
+**/__pycache__/
+**/*.py[cod]
+
+# Worktree and temp data
+task-canvas.worktrees/
+
 # General files
 .vscode/
 .idea/
